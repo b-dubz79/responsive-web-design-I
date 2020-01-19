@@ -289,12 +289,45 @@ header{
         display: flex;
         width: 100%;
         justify-content: space-between;
-        border:1px solid black;
     }
     .idea{
         display: flex;
         width: 100%;
         justify-content: center;
-        border: 1px solid black;
         margin-bottom: 30px;
+    }
+
+    @media (max-width: 500px){
+        .nav2{
+            display: flex;
+            flex-direction: column;
+        }
+        a{
+            width: 100%;
+            border: 1px solid gray;
+            text-align: center;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        .infoTop{
+            display: flex;
+            flex-direction: column;
+        }
+        .featsect{
+            margin-bottom: 25px;
+        }
+        .infoBottom{
+            display: flex;
+            flex-direction: column;
+        }
+        .servsect{
+            margin-bottom: 25px;
+        }
+        .prodsect{
+            margin-bottom: 25px;
+        }
+        .foot{
+            width: 100%;
+            align-text: center;
+        }
     }
